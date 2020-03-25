@@ -81,6 +81,7 @@
 @media only screen and (max-width: 768px) {
   .hero {
     position: relative;
+    height: 90vh;
   }
   .hero .dev {
     width: 100%;
