@@ -1,0 +1,119 @@
+$black : #000000;
+$yellow : #FFD600;
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.hero{
+    position: relative;
+    .dev{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/dev_black.svg');
+        &__text{
+            margin-top: 10%;
+        }
+        &__tools{
+            margin-top: 15%;
+            margin-right: 5%;
+        }
+    }
+    .des{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/des_yel.svg');
+        &__text{
+            margin-top: 10%;
+        }
+        &__tools{
+            margin-top: 15%;
+            margin-left: 5%;
+        }
+    }
+    .hero-img{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   
+   .haav{
+       z-index: 1;
+   }
+}
+    .paav{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+        img{
+            width: 70px;
+            cursor: crosshair;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .hero{
+        .dev{     
+            &__text{
+                margin-top: 15%;
+            }
+            &__tools{
+                margin-top:25%;
+               
+            }
+        }
+        .des{
+            &__text{
+                margin-top: 15%;              
+                width: 85%;
+            }
+            &__tools{               
+                margin-top: 25%;                
+            }
+        }
+        .hero-img{
+            .haav{
+           width: 65%;
+        }
+    }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        position: relative;
+        .dev{
+          
+            width: 100%;
+            background-image: url('../img/dev_black.svg');
+            &__text{
+                margin-top: 10%;
+            }
+            &__tools{
+                margin-top: 15%;
+                margin-right: 5%;
+            }
+        }
+        .des{
+           
+            width: 100%;
+            background-image: url('../img/des_yel.svg');
+            &__text{
+                margin-top: 20%;
+                margin-right: 10%;
+                width: 90%;
+            }
+            &__tools{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 5%;
+            }
+        }
+        .hero-img{
+            .haav{
+           width: 65%;
+        }
+    }
+    }
+}
