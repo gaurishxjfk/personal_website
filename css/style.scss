@@ -74,7 +74,7 @@ $yellow : #FFD600;
         }
         .hero-img{
             .haav{
-           width: 65%;
+           width: 55%;
         }
     }
     }
@@ -89,11 +89,11 @@ $yellow : #FFD600;
             width: 100%;
             background-image: url('../img/dev_black.svg');
             &__text{
-                margin-top: 10%;
+
+                width: 90%;
             }
             &__tools{
-                margin-top: 15%;
-                margin-right: 5%;
+               // width: 60%;
             }
         }
         .des{
@@ -101,19 +101,52 @@ $yellow : #FFD600;
             width: 100%;
             background-image: url('../img/des_yel.svg');
             &__text{
-                margin-top: 20%;
-                margin-right: 10%;
-                width: 90%;
+
+                width: 80%;
             }
             &__tools{
-                width: 60%;
-                margin-top: 15%;
-                margin-left: 5%;
+               // width: 60%;
             }
         }
         .hero-img{
             .haav{
-           width: 65%;
+           width: 55%;
+        }
+    }
+    }
+}
+
+@media only screen and (max-width: 510px){
+    .hero{
+        position: relative;
+        height: 90vh;
+        .dev{
+          
+            width: 100%;
+            background-image: url('../img/dev_black.svg');
+            &__text{
+
+                width: 90%;
+            }
+            &__tools{
+                width: 70%;
+            }
+        }
+        .des{
+           
+            width: 100%;
+            background-image: url('../img/des_yel.svg');
+            &__text{
+
+                width: 80%;
+            }
+            &__tools{
+                width: 70%;
+            }
+        }
+        .hero-img{
+            .haav{
+           width: 75%;
         }
     }
     }

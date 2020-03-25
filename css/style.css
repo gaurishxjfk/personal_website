@@ -74,7 +74,7 @@
     margin-top: 25%;
   }
   .hero .hero-img .haav {
-    width: 65%;
+    width: 55%;
   }
 }
 
@@ -88,28 +88,47 @@
     background-image: url("../img/dev_black.svg");
   }
   .hero .dev__text {
-    margin-top: 10%;
-  }
-  .hero .dev__tools {
-    margin-top: 15%;
-    margin-right: 5%;
+    width: 90%;
   }
   .hero .des {
     width: 100%;
     background-image: url("../img/des_yel.svg");
   }
   .hero .des__text {
-    margin-top: 20%;
-    margin-right: 10%;
-    width: 90%;
-  }
-  .hero .des__tools {
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 5%;
+    width: 80%;
   }
   .hero .hero-img .haav {
-    width: 65%;
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .hero {
+    position: relative;
+    height: 90vh;
+  }
+  .hero .dev {
+    width: 100%;
+    background-image: url("../img/dev_black.svg");
+  }
+  .hero .dev__text {
+    width: 90%;
+  }
+  .hero .dev__tools {
+    width: 70%;
+  }
+  .hero .des {
+    width: 100%;
+    background-image: url("../img/des_yel.svg");
+  }
+  .hero .des__text {
+    width: 80%;
+  }
+  .hero .des__tools {
+    width: 70%;
+  }
+  .hero .hero-img .haav {
+    width: 75%;
   }
 }
 /*# sourceMappingURL=style.css.map */
