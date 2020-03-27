@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -19,19 +21,37 @@
         <div class="col d-flex flex-column align-items-center dev" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
           <img src="img/DEVELOPER.svg" alt="" class="mx-auto  img-fluid dev__text" data-aos="fade-right" data-aos-duration="3000">
           <img src="img/devtools.svg" alt="" class="dev__tools" data-aos="fade-up-left" data-aos-duration="3000">
+          <div class="dev__info" data-aos="fade-up-right" data-aos-duration="3000">
+            <div id="typed-strings"  >
+              <p>HTML / CSS<br>JavaScript<br>Sass / Git<br>Bootstrap<br>React Js</p>
+            </div>
+            <span id="typed"></span>
+         </div>
+          
+          
         </div>
         <div class="col d-flex flex-column align-items-center des" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
           <img src="img/DESIGNERP.svg" alt="" class="mx-autoimg-fluid des__text" data-aos="fade-left" data-aos-duration="3000">
           <img src="img/destools.svg" alt="" class="des__tools" data-aos="fade-up-right" data-aos-duration="3000">
+         <div class="des__info" data-aos="fade-up-left" data-aos-duration="3000">
+            <div id="typed-string"  >
+              <p>Figma<br>Adobe Photoshop<br>Adobe Illustrator<br>CorelDraw</p>
+            </div>
+            <span id="typedd"></span>
+         </div>
+
+         
         </div>
         <div class="hero-img text-center" data-aos="fade-up" data-aos-duration="2000">
           <img src="img/hero.png" alt="" class="img-fluid haav">
-
+ 
         </div>  
         <div class="paav text-center" data-aos="fade-up"
         data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
           <img src="img/scroll-down.gif" alt="" class="">
-        </div>                   
+        </div> 
+
+
      </div>
   </section>
 
@@ -43,6 +63,9 @@
   <script>
     AOS.init();
   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

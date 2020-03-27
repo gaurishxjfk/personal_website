@@ -23,6 +23,23 @@
   margin-right: 5%;
 }
 
+.hero .dev__info {
+  margin-top: 10%;
+  width: 50%;
+  text-align: center !important;
+}
+
+.hero .dev__info #typed {
+  color: #ffffff;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center !important;
+  margin-top: auto;
+}
+
 .hero .des {
   height: 100vh;
   width: 100%;
@@ -36,6 +53,23 @@
 .hero .des__tools {
   margin-top: 15%;
   margin-left: 5%;
+}
+
+.hero .des__info {
+  margin-top: 10%;
+  width: 50%;
+  text-align: center !important;
+}
+
+.hero .des__info #typedd {
+  color: rgba(0, 0, 0, 0.95);
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center !important;
+  margin-top: auto;
 }
 
 .hero .hero-img {
@@ -66,12 +100,41 @@
   .hero .dev__tools {
     margin-top: 25%;
   }
+  .hero .dev__info {
+    margin-top: 5%;
+    width: 50%;
+    text-align: center !important;
+  }
+  .hero .dev__info #typed {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
+  }
   .hero .des__text {
     margin-top: 15%;
     width: 85%;
   }
   .hero .des__tools {
-    margin-top: 25%;
+    margin-top: 20%;
+  }
+  .hero .des__info {
+    margin-top: 5%;
+    width: 50%;
+    text-align: center !important;
+  }
+  .hero .des__info #typedd {
+    color: rgba(0, 0, 0, 0.95);
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
   }
   .hero .hero-img .haav {
     width: 55%;
@@ -90,12 +153,41 @@
   .hero .dev__text {
     width: 90%;
   }
+  .hero .dev__info {
+    margin-top: 5%;
+    width: 65%;
+    text-align: center !important;
+  }
+  .hero .dev__info #typedd {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
+  }
   .hero .des {
     width: 100%;
     background-image: url("../img/des_yel.svg");
   }
   .hero .des__text {
     width: 80%;
+  }
+  .hero .des__info {
+    margin-top: 5%;
+    width: 65%;
+    text-align: center !important;
+  }
+  .hero .des__info #typedd {
+    color: rgba(0, 0, 0, 0.95);
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
   }
   .hero .hero-img .haav {
     width: 55%;
@@ -117,6 +209,21 @@
   .hero .dev__tools {
     width: 70%;
   }
+  .hero .dev__info {
+    margin-top: 15%;
+    width: 80%;
+    text-align: left !important;
+  }
+  .hero .dev__info #typed {
+    color: #ffffff;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
+  }
   .hero .des {
     width: 100%;
     background-image: url("../img/des_yel.svg");
@@ -126,6 +233,21 @@
   }
   .hero .des__tools {
     width: 70%;
+  }
+  .hero .des__info {
+    margin-top: 15%;
+    width: 80%;
+    text-align: right !important;
+  }
+  .hero .des__info #typedd {
+    color: rgba(0, 0, 0, 0.95);
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center !important;
+    margin-top: auto;
   }
   .hero .hero-img .haav {
     width: 75%;
