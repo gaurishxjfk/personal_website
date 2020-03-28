@@ -2,7 +2,7 @@
     stringsElement: '#typed-strings',
     typeSpeed: 20,
     backSpeed: 20,
-    backDelay: 1900,
+    backDelay: 2000,
     startDelay: 1000,
     loop: true,
     

@@ -26,6 +26,7 @@
 .hero .dev__info {
   margin-top: 10%;
   width: 50%;
+  height: 25vh;
   text-align: center !important;
 }
 
@@ -56,6 +57,7 @@
 }
 
 .hero .des__info {
+  height: 25vh;
   margin-top: 10%;
   width: 50%;
   text-align: center !important;
@@ -210,9 +212,9 @@
     width: 70%;
   }
   .hero .dev__info {
-    margin-top: 15%;
+    margin-top: 25%;
     width: 80%;
-    text-align: left !important;
+    height: 20vh;
   }
   .hero .dev__info #typed {
     color: #ffffff;
@@ -235,9 +237,8 @@
     width: 70%;
   }
   .hero .des__info {
-    margin-top: 15%;
+    margin-top: 25%;
     width: 80%;
-    text-align: right !important;
   }
   .hero .des__info #typedd {
     color: rgba(0, 0, 0, 0.95);

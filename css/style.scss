@@ -21,7 +21,7 @@ $yellow : #FFD600;
         &__info{
             margin-top: 10%;
             width: 50%;
-            
+            height: 25vh;
             text-align: center !important;
             #typed{
                 
@@ -48,7 +48,7 @@ $yellow : #FFD600;
             margin-left: 5%;
         }
         &__info{
-          
+            height: 25vh;
             margin-top: 10%;
             width: 50%;
             
@@ -228,12 +228,11 @@ $yellow : #FFD600;
             &__tools{
                 width: 70%;
             }
-            &__info{
-          
+            &__info{          
                 margin-top: 25%;
-                width: 80%;
-                
-                text-align: left !important;
+                width: 80%;   
+                height: 20vh;             
+               // text-align: left !important;
                 #typed{
                     color: #ffffff;
                     width: 50%;
@@ -257,12 +256,10 @@ $yellow : #FFD600;
             &__tools{
                 width: 70%;
             }
-            &__info{
-          
+            &__info{          
                 margin-top: 25%;
-                width: 80%;
-                
-                text-align: right !important;
+                width: 80%;                
+                //text-align: right !important;
                 #typedd{
                     color: rgba(0, 0, 0, 0.95);
                     width: 50%;
