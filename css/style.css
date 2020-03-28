@@ -24,10 +24,10 @@
 }
 
 .hero .dev__info {
-  margin-top: 10%;
-  width: 50%;
-  height: 25vh;
-  text-align: center !important;
+  height: 15vh;
+  margin-top: 25%;
+  width: 80%;
+  text-align: center;
 }
 
 .hero .dev__info #typed {
@@ -35,10 +35,9 @@
   width: 50%;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
+  opacity: 0.7;
   font-size: 24px;
-  text-align: center !important;
-  margin-top: auto;
 }
 
 .hero .des {
@@ -57,21 +56,20 @@
 }
 
 .hero .des__info {
-  height: 25vh;
-  margin-top: 10%;
-  width: 50%;
-  text-align: center !important;
+  height: 15vh;
+  margin-top: 25%;
+  width: 80%;
+  text-align: center;
 }
 
 .hero .des__info #typedd {
   color: rgba(0, 0, 0, 0.95);
-  width: 50%;
+  width: 70%;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
-  text-align: center !important;
-  margin-top: auto;
+  opacity: 0.7;
 }
 
 .hero .hero-img {
@@ -100,15 +98,15 @@
     margin-top: 15%;
   }
   .hero .dev__tools {
-    margin-top: 25%;
+    margin-top: 15%;
   }
   .hero .dev__info {
-    margin-top: 5%;
-    width: 50%;
+    margin-top: 20%;
+    width: 80%;
     text-align: center !important;
   }
   .hero .dev__info #typed {
-    width: 50%;
+    width: 80%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 500;
@@ -121,16 +119,16 @@
     width: 85%;
   }
   .hero .des__tools {
-    margin-top: 20%;
+    margin-top: 15%;
   }
   .hero .des__info {
-    margin-top: 5%;
-    width: 50%;
+    margin-top: 20%;
+    width: 90%;
     text-align: center !important;
   }
   .hero .des__info #typedd {
     color: rgba(0, 0, 0, 0.95);
-    width: 50%;
+    width: 80%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 500;
@@ -155,9 +153,12 @@
   .hero .dev__text {
     width: 90%;
   }
+  .hero .dev__tools {
+    margin-top: 10%;
+  }
   .hero .dev__info {
-    margin-top: 5%;
-    width: 65%;
+    margin-top: 25%;
+    width: 90%;
     text-align: center !important;
   }
   .hero .dev__info #typedd {
@@ -176,9 +177,12 @@
   .hero .des__text {
     width: 80%;
   }
+  .hero .des__tools {
+    margin-top: 10%;
+  }
   .hero .des__info {
-    margin-top: 5%;
-    width: 65%;
+    margin-top: 25%;
+    width: 90%;
     text-align: center !important;
   }
   .hero .des__info #typedd {
@@ -210,10 +214,11 @@
   }
   .hero .dev__tools {
     width: 70%;
+    margin-top: 15%;
   }
   .hero .dev__info {
     margin-top: 25%;
-    width: 80%;
+    width: 95%;
     height: 20vh;
   }
   .hero .dev__info #typed {
@@ -221,8 +226,8 @@
     width: 50%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     text-align: center !important;
     margin-top: auto;
   }
@@ -235,14 +240,15 @@
   }
   .hero .des__tools {
     width: 70%;
+    margin-top: 15%;
   }
   .hero .des__info {
     margin-top: 25%;
-    width: 80%;
+    width: 95%;
+    height: 20vh;
   }
   .hero .des__info #typedd {
     color: rgba(0, 0, 0, 0.95);
-    width: 50%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 500;
