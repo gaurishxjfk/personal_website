@@ -3,10 +3,11 @@ $yellow : #FFD600;
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .hero{
     position: relative;
+    overflow: hidden;
     .dev{
         height: 100vh;
         width: 100%;
@@ -220,12 +221,10 @@ $yellow : #FFD600;
     .hero{
         position: relative;
         height: 90vh;
-        .dev{
-          
+        .dev{          
             width: 100%;
             background-image: url('../img/dev_black.svg');
             &__text{
-
                 width: 90%;
             }
             &__tools{
@@ -235,8 +234,7 @@ $yellow : #FFD600;
             &__info{          
                 margin-top: 25%;
                 width: 95%;   
-                height: 20vh;             
-               // text-align: left !important;
+                height: 20vh; 
                 #typed{
                     color: #ffffff;
                     width: 50%;
@@ -249,12 +247,10 @@ $yellow : #FFD600;
                 }
             }
         }
-        .des{
-           
+        .des{           
             width: 100%;
             background-image: url('../img/des_yel.svg');
             &__text{
-
                 width: 80%;
             }
             &__tools{
@@ -266,8 +262,7 @@ $yellow : #FFD600;
                 width: 95%;                
                 height: 20vh;
                 #typedd{
-                    color: rgba(0, 0, 0, 0.95);
-                  
+                    color: rgba(0, 0, 0, 0.95);                  
                     font-family: 'Roboto', sans-serif;
                     font-style: italic;
                     font-weight: 400;
@@ -284,3 +279,163 @@ $yellow : #FFD600;
     }
     }
 }
+.pik{
+    background:#000000;
+    .menu{
+        position: relative;
+        width: auto;
+        height: 80vh;
+        padding-top: 5%;
+        .about{     
+            width: 25%;
+            position: absolute;
+            z-index: initial;
+            left : 15.4%;
+            top: 5%;
+            &:hover{
+                top:3%;
+                left: 15.6%;
+            }           
+        }
+        .work{  
+            width: 25%; 
+           position: absolute;  
+            z-index: 10;
+            left: 29.5%;
+            &:hover{
+                top:7%;
+                left : 30%
+            }    
+        }     
+        
+        .client{
+            width: 25%;
+          position: absolute;
+            z-index: 20;
+            top: 5%;
+            right: 29.5%;
+            &:hover{
+                top:3%;
+            }
+        }
+        .contact{
+            width: 25%;
+          position: absolute;
+            z-index: 30;
+            right: 15.4%;
+            &:hover{
+                top:7%;
+                right : 14.8%
+            }           
+        }
+        @media only screen and (max-width:1250px){
+            .about{     
+                width: 23%;
+                left : 17.4%;
+                top: 5%;   
+                &:hover{
+                    left : 17.6%;
+                    top: 3%; 
+                }        
+            }
+            .work{  
+                width: 23%; 
+                left: 31%;  
+                &:hover{
+                    left: 31.2%; 
+                    top: 7%; 
+                }  
+            }                 
+            .client{
+                width: 23%;
+                top: 5%;
+                right: 31%;
+                &:hover{
+                    right: 30.5%;
+                    top: 3%; 
+                }  
+            }
+            .contact{
+                width: 23%;
+                right: 17.4%; 
+                &:hover{
+                    right: 17%; 
+                    top: 7%; 
+                }          
+            }
+        }
+        @media only screen and (max-width:968px){
+            .about{     
+                width: 25%;
+                left : 14%;
+                top: 3%;  
+                &:hover{
+                    top:2%;
+                    left : 14.2%
+                }           
+            }
+            .work{  
+                width: 25%; 
+                left: 29%;  
+                &:hover{
+                    top:5.5%;
+                    left : 29.5%
+                }   
+            }                 
+            .client{
+                width: 25%;
+                top: 3%;
+                right: 29%;
+                &:hover{
+                    top:2%;
+                    right: 28.7%
+                }   
+            }
+            .contact{
+                width: 25%;
+                right: 14%;   
+                &:hover{
+                    top:5.5%;
+                    right : 13.5%
+                }         
+            }
+        }
+        @media only screen and (max-width:512px){
+            .about{     
+                width: 25%;
+                left : 12%;
+                top: 3%;  
+                &:hover{
+                    top:2%;
+                    left : 14.2%
+                }           
+            }
+            .work{  
+                width: 25%; 
+                left: 29%;  
+                &:hover{
+                    top:5.5%;
+                    left : 29.5%
+                }   
+            }                 
+            .client{
+                width: 25%;
+                top: 3%;
+                right: 29%; 
+                &:hover{
+                    top:2%;
+                    right: 28.7%
+                }   
+            }
+            .contact{
+                width: 25%;
+                right: 12%;   
+                &:hover{
+                    top:5.5%;
+                    right : 13.5%
+                }         
+            }
+        }
+    }
+}
+
