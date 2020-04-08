@@ -280,8 +280,10 @@ $yellow : #FFD600;
     }
 }
 .pik{
+    
     background:#000000;
     .menu{
+        overflow: hidden;
         position: relative;
         width: auto;
         height: 80vh;
@@ -290,7 +292,7 @@ $yellow : #FFD600;
             width: 25%;
             position: absolute;
             z-index: initial;
-            left : 15.4%;
+            left : 15%;
             top: 5%;
             &:hover{
                 top:3%;
@@ -323,7 +325,7 @@ $yellow : #FFD600;
             width: 25%;
           position: absolute;
             z-index: 30;
-            right: 15.4%;
+            right: 15%;
             &:hover{
                 top:7%;
                 right : 14.8%
