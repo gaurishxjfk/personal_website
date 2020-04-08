@@ -323,6 +323,9 @@
 }
 
 @media only screen and (max-width: 1250px) {
+  .pik .menu {
+    height: 60vh;
+  }
   .pik .menu .about {
     width: 23%;
     left: 17.4%;
@@ -360,6 +363,9 @@
 }
 
 @media only screen and (max-width: 968px) {
+  .pik .menu {
+    height: 45vh;
+  }
   .pik .menu .about {
     width: 25%;
     left: 14%;
@@ -396,28 +402,37 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .pik .menu {
+    height: 37vh;
+  }
+}
+
 @media only screen and (max-width: 512px) {
+  .pik .menu {
+    height: 25vh;
+  }
   .pik .menu .about {
     width: 25%;
-    left: 12%;
+    left: 13%;
     top: 3%;
   }
   .pik .menu .about:hover {
     top: 2%;
-    left: 14.2%;
+    left: 13.2%;
   }
   .pik .menu .work {
     width: 25%;
-    left: 29%;
+    left: 28.5%;
   }
   .pik .menu .work:hover {
-    top: 5.5%;
-    left: 29.5%;
+    top: 3%;
+    left: 28.7%;
   }
   .pik .menu .client {
     width: 25%;
     top: 3%;
-    right: 29%;
+    right: 28.5%;
   }
   .pik .menu .client:hover {
     top: 2%;
@@ -425,11 +440,11 @@
   }
   .pik .menu .contact {
     width: 25%;
-    right: 12%;
+    right: 13%;
   }
   .pik .menu .contact:hover {
-    top: 5.5%;
-    right: 13.5%;
+    top: 3%;
+    right: 13.2%;
   }
 }
 /*# sourceMappingURL=style.css.map */

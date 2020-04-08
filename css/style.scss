@@ -295,7 +295,8 @@ $yellow : #FFD600;
             &:hover{
                 top:3%;
                 left: 15.6%;
-            }           
+              
+            }        
         }
         .work{  
             width: 25%; 
@@ -328,7 +329,10 @@ $yellow : #FFD600;
                 right : 14.8%
             }           
         }
+    }
         @media only screen and (max-width:1250px){
+            .menu{
+                height: 60vh;
             .about{     
                 width: 23%;
                 left : 17.4%;
@@ -364,7 +368,10 @@ $yellow : #FFD600;
                 }          
             }
         }
+    }
         @media only screen and (max-width:968px){
+            .menu{
+                height: 45vh;
             .about{     
                 width: 25%;
                 left : 14%;
@@ -400,28 +407,34 @@ $yellow : #FFD600;
                 }         
             }
         }
+    }
+    @media only screen and (max-width:768px){
+        .menu{
+            height: 37vh;}}
         @media only screen and (max-width:512px){
+            .menu{
+                height: 25vh;
             .about{     
                 width: 25%;
-                left : 12%;
+                left : 13%;
                 top: 3%;  
                 &:hover{
                     top:2%;
-                    left : 14.2%
+                    left : 13.2%
                 }           
             }
             .work{  
                 width: 25%; 
-                left: 29%;  
+                left: 28.5%;  
                 &:hover{
-                    top:5.5%;
-                    left : 29.5%
+                    top:3%;
+                    left : 28.7%
                 }   
             }                 
             .client{
                 width: 25%;
                 top: 3%;
-                right: 29%; 
+                right: 28.5%; 
                 &:hover{
                     top:2%;
                     right: 28.7%
@@ -429,13 +442,14 @@ $yellow : #FFD600;
             }
             .contact{
                 width: 25%;
-                right: 12%;   
+                right: 13%;   
                 &:hover{
-                    top:5.5%;
-                    right : 13.5%
+                    top:3%;
+                    right : 13.2%
                 }         
             }
         }
     }
+   
 }
 
