@@ -15,68 +15,122 @@
 
 </head>
 <body>
-<div class="main">
-    <section class="hero">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col d-flex flex-column align-items-center dev" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <img src="img/DEVELOPER.svg" alt="" class="mx-auto  img-fluid dev__text" data-aos="fade-right" data-aos-duration="3000">
-            <div class="dev__info" data-aos="fade-up-right" data-aos-duration="3000">
-              <div id="typed-strings"  >
-              <p>	&lt; I build visually aesthetic websites&nbsp;/&gt;</p>
-              </div>
-              <span id="typed"></span>
-           </div>
-            <img src="img/devtools.svg" alt="" class="dev__tools" data-aos="fade-up-left" data-aos-duration="3000">
-  
+<div class="main" >
+      <section class="hero">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col d-flex flex-column align-items-center dev" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+              <img src="img/DEVELOPER.svg" alt="" class="mx-auto  img-fluid dev__text" data-aos="fade-right" data-aos-duration="3000">
+              <div class="dev__info" data-aos="fade-up-right" data-aos-duration="3000">
+                <div id="typed-strings"  >
+                <p>	&lt; I build visually aesthetic & professional websites&nbsp;/&gt;</p>
+                </div>
+                <span id="typed"></span>
+            </div>
+              <img src="img/devtools.svg" alt="" class="dev__tools" data-aos="fade-up-left" data-aos-duration="3000">
+    
+              
+              
+            </div>
+            <div class="col d-flex flex-column align-items-center des" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+              <img src="img/DESIGNERP.svg" alt="" class="mx-autoimg-fluid des__text" data-aos="fade-left" data-aos-duration="3000">
             
+            <div class="des__info " data-aos="fade-up-left" data-aos-duration="3000">
+                <div id="typed-string" >
+                  <p>I create pixel perfect designs & UI/UX !</p>
+                </div>
+                <span id="typedd"></span>
+            </div>
+            <img src="img/destools.svg" alt="" class="des__tools" data-aos="fade-up-right" data-aos-duration="3000">
             
-          </div>
-          <div class="col d-flex flex-column align-items-center des" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <img src="img/DESIGNERP.svg" alt="" class="mx-autoimg-fluid des__text" data-aos="fade-left" data-aos-duration="3000">
-           
-           <div class="des__info " data-aos="fade-up-left" data-aos-duration="3000">
-              <div id="typed-string" >
-                <p>I create pixel perfect design & interfaces!</p>
-              </div>
-              <span id="typedd"></span>
-           </div>
-           <img src="img/destools.svg" alt="" class="des__tools" data-aos="fade-up-right" data-aos-duration="3000">
-           
-          </div>
-          <div class="hero-img text-center" data-aos="fade-up" data-aos-duration="2000">
-            <img src="img/hero.png" alt="" class="img-fluid haav">
-   
-          </div>  
-          <div class="paav text-center" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
-           <a href="#menu"><img src="img/scroll-down.gif" alt="" class=""></a> 
-          </div> 
-  
-  
-       </div>
-    </section > 
-    <section  id="menu" class="pik ">
-  <div class=" menu d-flex ">
-        <div class=" about img-fluid " data-aos="fade-up-right" data-aos-duration="500">
-          <img src="img/abt-menu.svg" alt="" class="imm img-fluid">
+            </div>
+            <div class="hero-img text-center" data-aos="fade-up" data-aos-duration="2000">
+              <img src="img/hero.png" alt="" class="img-fluid haav">
+    
+            </div>  
+            <div class="paav text-center" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
+            <a href=""><img src="img/scroll-down.gif" alt="" class=""></a> 
+            </div> 
+    
+    
+        </div>
+      </section > 
+      <section  id="menu" class="pik ">
+    <div class=" menu d-flex ">
+        <a onclick="myFunctionabt()" href="#myDIV">
+          <div  class=" about  " data-aos="fade-up-right" data-aos-duration="500">
 
-      </div>
-        <div class="work img-fluid" data-aos="fade-up-right" data-aos-duration="1000">       
-          <img src="img/work-menu.svg" alt="" class="img-fluid">
-      
-      </div>
-        <div class=" client img-fluid" data-aos="fade-up-right" data-aos-duration="2000">         
-          <img src="img/hire-menu.svg" alt="" class="img-fluid">
-      
-      </div>
-        <div class=" contact img-fluid" data-aos="fade-up-right" data-aos-duration="3000">         
-          <img src="img/client-menu.svg" alt="" class="img-fluid">
-      
-      </div>
+            <img src="img/abt-menu.svg" alt="" class="first img-fluid">
+            <img src="img/hover-abt.svg" alt="" class=" last img-fluid">
+
+           
+          
+          </div>
+        </a>
+        <a onclick="myFunctionwrk()" href="#myDIVwork">
+          <div class="work img-fluid" data-aos="fade-up-right" data-aos-duration="1000">       
+            <img src="img/work-menu.svg" alt="" class="first img-fluid">
+            <img src="img/hire-work.svg" alt="" class=" last img-fluid">
+
+        
+        </div>
+      </a>
+      <a onclick="myFunctionhire()" href="#myDIVhire">
+          <div class=" client img-fluid" data-aos="fade-up-right" data-aos-duration="2000">         
+            <img src="img/hire-menu.svg" alt="" class="first img-fluid">
+            <img src="img/hover-hire.svg" alt="" class=" last img-fluid">
+        
+        </div>
+      </a>
+        <a onclick="myFunctioncli()" href="#myDIVcli">
+          <div class=" contact img-fluid" data-aos="fade-up-right" data-aos-duration="3000">         
+            
+            
+              <img src="img/client-menu.svg" alt="" class="first img-fluid"> 
+              <img src="img/hover-cli.svg" alt="" class=" last img-fluid">
+           
+        
+            </div>
+            </a>
+          </div>
+      </section>
   </div>
-    </section>
+  <div class="hid about-me" id="myDIV">
+    <div class="container-fluid">
+      <div class="abtme">
+        <div class=" abtme-img text-left " data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+          <img src="img/abtme-img.png" class="img-fluid"  alt="">
+        </div>
+        <div class="abtme-info text-right">
+          <div class="abtme-info__heading" data-aos="fade-left" data-aos-duration="1000">About Me</div>
+          <div class="abtme-info__descr " data-aos="fade-left" data-aos-duration="2000">
+            Hey there, My name is Gaurish Naik. I am freelance designer & developer with over 3 years of experience.  
+          </div>
+          <div class="icons " data-aos="fade-left" data-aos-duration="3000">
+            <img src="img/GIT.svg" class="img-fluid" alt="">
+            <img src="img/insta.svg" class="img-fluid"  alt="">
+            <img src="img/linkedin.svg"  class="img-fluid" alt="">
+            <img src="img/twit.svg"  class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- <div class="hid my-work" id="myDIVwork">
+    <h1 class="">asdasd me</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nisi, sunt excepturi perspiciatis voluptate minima unde voluptates aliquid qui alias magni sint minus quia tenetur vero cum inventore cupiditate veniam! </p>
+  </div>
+  <div class="hid hire-me" id="myDIVhire">
+    <h1 class="">hirjghgme</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nisi, sunt excepturi perspiciatis voluptate minima unde voluptates aliquid qui alias magni sint minus quia tenetur vero cum inventore cupiditate veniam! </p>
+  </div>
+  <div class="hid my-clients" id="myDIVcli">
+    <h1 class="">client me</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nisi, sunt excepturi perspiciatis voluptate minima unde voluptates aliquid qui alias magni sint minus quia tenetur vero cum inventore cupiditate veniam! </p>
+  </div> -->
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

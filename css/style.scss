@@ -3,8 +3,12 @@ $yellow : #FFD600;
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+ 
 }
+.main{
+    height: 100%;
+    overflow: hidden;
+
 .hero{
     position: relative;
     overflow: hidden;
@@ -279,6 +283,11 @@ $yellow : #FFD600;
     }
     }
 }
+// --------------------------------------------------------------------------------------------------------------//
+// --------------------------------------------------------------------------------------------------------------//
+// --------------------------------------------------------------------------------------------------------------//
+// --------------------------------------------------------------------------------------------------------------//
+
 .pik{
     
     background:#000000;
@@ -294,9 +303,20 @@ $yellow : #FFD600;
             z-index: initial;
             left : 15%;
             top: 5%;
+            .last{
+                display: none;
+            }  
+           
             &:hover{
                 top:3%;
                 left: 15.6%;
+                .last{
+                    display:block;
+                }
+                .first{
+                    display: none;
+                }
+             
               
             }        
         }
@@ -305,9 +325,20 @@ $yellow : #FFD600;
            position: absolute;  
             z-index: 10;
             left: 29.5%;
+            .last{
+                display: none;
+            }  
+         
             &:hover{
                 top:7%;
-                left : 30%
+                left : 30%;
+                .last{
+                    display:block;
+                }
+                .first{
+                    display: none;
+                }
+                
             }    
         }     
         
@@ -317,18 +348,38 @@ $yellow : #FFD600;
             z-index: 20;
             top: 5%;
             right: 29.5%;
+            .last{
+                display: none;
+            }  
+          
             &:hover{
                 top:3%;
+                .last{
+                    display:block;
+                }
+                .first{
+                    display: none;
+                }
             }
         }
         .contact{
             width: 25%;
           position: absolute;
             z-index: 30;
-            right: 15%;
-            &:hover{
+            right: 15%;   
+            .last{
+                display: none;
+            }    
+             &:hover{
                 top:7%;
-                right : 14.8%
+                right : 14.8%;
+                .last{
+                    display:block;
+                }
+                .first{
+                    display: none;
+                }
+                
             }           
         }
     }
@@ -339,6 +390,7 @@ $yellow : #FFD600;
                 width: 23%;
                 left : 17.4%;
                 top: 5%;   
+               
                 &:hover{
                     left : 17.6%;
                     top: 3%; 
@@ -412,7 +464,9 @@ $yellow : #FFD600;
     }
     @media only screen and (max-width:768px){
         .menu{
-            height: 37vh;}}
+            height: 37vh;
+        }
+    }
         @media only screen and (max-width:512px){
             .menu{
                 height: 25vh;
@@ -453,5 +507,308 @@ $yellow : #FFD600;
         }
     }
    
+}
+
+}
+
+//================================================================================================================================//
+//================================================================================================================================//
+//================================================================================================================================//
+.hid{
+    display: none;
+}
+.about-me{
+    width: 100%;
+    height: 80vh;
+    background: url("../img/bg-abtme.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    .abtme{
+        display: flex;
+        
+        &-img{
+            margin-left: 7%;
+        }
+        &-info{
+            margin-right: 2%;
+            padding-top: 10%;
+            &__heading{
+                margin-left: auto;
+                font-family: 'Roboto', sans-serif;
+                //font-weight: bold;
+                font-size: 52px;
+                text-decoration: underline;
+                text-transform: uppercase;
+                width: 50%;
+                color: #000000;
+            }
+            &__descr{
+                margin-left: auto;
+                
+                font-family: 'Roboto', sans-serif;
+                //font-weight: bold;
+                font-style: italic;
+                font-size: 26px;
+                color: #000000;
+                opacity: .7;
+                width: 60%;
+            }
+            .icons{
+                img{
+                    height:12%;
+                    margin: 5%;
+                    margin-right: 0;                    
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 1110px){
+    .about-me{
+        background: url("../img/bg-abtme.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        .abtme{
+
+            flex-direction: column;
+            &-img{
+                img{
+                    width: 40%;
+                }
+            }
+            &-info{
+                margin-top: -27%;
+                margin-right: 2%;
+                &__heading{
+                      font-size: 38px;
+                }
+                &__descr{
+                    margin-left: auto;  
+                    font-size: 24px;
+                    width: 40%;
+
+                }
+                .icons{
+                    img{
+                        height:1%;
+                        margin: 2%;
+                        margin-right: 0;    
+                        margin-top: 5%;                
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 846px){
+    .about-me{
+        background: url("../img/bg-abtme-md.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        .abtme{
+
+            flex-direction: column;
+            &-img{
+                img{
+                    width: 41%;
+                }
+            }
+            &-info{
+                margin-top: -10%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 38px;
+                }
+                &__descr{
+                    margin-top: 2%;
+                    //margin-left: auto;  
+                    font-size: 24px;
+                    width: 60%;
+                }
+                .icons{
+                    img{
+                        margin: 3%;
+                        margin-right: 0;  
+                        margin-top: 5%;                    
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px){
+    .about-me{
+       .abtme{            
+            &-img{
+                img{
+                    width: 46%;
+                }
+            }
+            &-info{
+                margin-top: -5%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 34px;
+                }
+                &__descr{
+                    margin-left: auto;  
+                    font-size: 22px;
+                    width: 65%;
+                }
+                .icons{
+                    img{
+                        margin: 3%;
+                        margin-right: 0;  
+                        margin-top: 5%;                  
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .about-me{
+        .abtme{            
+            &-img{
+                img{
+                    width: 49%;
+                }
+            }
+            &-info{
+                margin-top: -5%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 34px;
+                }
+                &__descr{
+                    margin-left: auto;  
+                    font-size: 22px;
+                    width: 65%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 512px){
+    .about-me{
+        background: url("../img/bg-abtme-sm.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        .abtme{
+
+            flex-direction: column;
+            &-img{
+                img{
+                    width: 63%;
+                }
+            }
+            &-info{
+                margin-top: 8%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 24px;
+                }
+                &__descr{
+                    margin-left: auto;  
+                    font-size: 18px;
+                    width: 70%;
+                }
+                .icons{
+                    img{
+                        height:  30px;
+                        margin: 2%;
+                        margin-right: 0;  
+                        margin-top: 5%;                  
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 460px){
+    .about-me{
+        background: url("../img/bg-abtme-sm.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        .abtme{
+
+            flex-direction: column;
+            &-img{
+                img{
+                    width: 70%;
+                }
+            }
+            &-info{
+                margin-top: 20%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 24px;
+                }
+                &__descr{
+                    margin-top: 5%;
+                    margin-left: auto;  
+                    font-size: 18px;
+                    width: 80%;
+                }
+                .icons{
+                    img{
+                        height:  25px;
+                        margin: 2%;
+                        margin-right: 0;  
+                        margin-top: 15%;                  
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 380px){
+    .about-me{
+        background: url("../img/bg-abtme-sm.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        .abtme{
+
+            flex-direction: column;
+            &-img{
+                img{
+                    width: 80%;
+                }
+            }
+            &-info{
+                margin-top: 20%;
+                margin-right: 5%;
+                &__heading{
+                      font-size: 24px;
+                }
+                &__descr{
+                    margin-left: auto;  
+                    font-size: 18px;
+                    width: 80%;
+                }
+                .icons{
+                    img{
+                        height:  25px;
+                        margin: 2%;
+                        margin-right: 0;  
+                        margin-top: 5%;                  
+                    }
+                }
+            }
+        }
+    }
 }
 
