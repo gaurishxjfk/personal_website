@@ -10,8 +10,8 @@
   var typed = new Typed("#typedd", {
     stringsElement: '#typed-string',
     typeSpeed: 50,
-    backSpeed: 45,
-    backDelay: 2000,
+    backSpeed: 55,
+    backDelay: 2200,
     startDelay: 1000,
     loop: true,
     

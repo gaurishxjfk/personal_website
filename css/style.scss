@@ -26,7 +26,7 @@ $yellow : #FFD600;
         &__info{
             height: 15vh;
             margin-top: 25%;
-            width:80%;
+            width:95%;
             text-align: center;
             #typed{
                 color:#ffffff;
@@ -237,15 +237,15 @@ $yellow : #FFD600;
             }
             &__info{          
                 margin-top: 25%;
-                width: 95%;   
+                width: 99%;   
                 height: 20vh; 
                 #typed{
                     color: #ffffff;
-                    width: 50%;
+                   
                     font-family: 'Roboto', sans-serif;
                     font-style: italic;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 16px;
                     text-align: center !important;
                     margin-top: auto;
                 }
@@ -270,7 +270,7 @@ $yellow : #FFD600;
                     font-family: 'Roboto', sans-serif;
                     font-style: italic;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 16px;
                     text-align: center !important;
                     margin-top: auto;
                 }
@@ -515,7 +515,7 @@ $yellow : #FFD600;
 //================================================================================================================================//
 //================================================================================================================================//
 .hid{
-    display: none;
+    //display: none;
 }
 .about-me{
     width: 100%;
@@ -524,7 +524,7 @@ $yellow : #FFD600;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    height: 650px;
     .abtme{
         display: flex;
         
@@ -645,6 +645,7 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 700px){
     .about-me{
+        height: 700px;
        .abtme{            
             &-img{
                 img{
@@ -675,6 +676,7 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 600px){
     .about-me{
+        height: 650px;
         .abtme{            
             &-img{
                 img{
@@ -702,13 +704,13 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-       
+        
         .abtme{
 
             flex-direction: column;
             &-img{
                 img{
-                    width: 63%;
+                    width: 60%;
                 }
             }
             &-info{
@@ -719,7 +721,7 @@ $yellow : #FFD600;
                 }
                 &__descr{
                     margin-left: auto;  
-                    font-size: 18px;
+                    font-size: 20px;
                     width: 70%;
                 }
                 .icons{
@@ -740,13 +742,14 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-       
+        height: 660px;
         .abtme{
 
             flex-direction: column;
             &-img{
                 img{
-                    width: 70%;
+                    height: 265px;
+                    width: auto;
                 }
             }
             &-info{
@@ -758,7 +761,7 @@ $yellow : #FFD600;
                 &__descr{
                     margin-top: 5%;
                     margin-left: auto;  
-                    font-size: 18px;
+                    font-size: 20px;
                     width: 80%;
                 }
                 .icons{
@@ -779,13 +782,14 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-       
+        height: 660px;
         .abtme{
 
             flex-direction: column;
             &-img{
                 img{
-                    width: 80%;
+                    height: 250px;
+                    width: auto;
                 }
             }
             &-info{
@@ -796,13 +800,13 @@ $yellow : #FFD600;
                 }
                 &__descr{
                     margin-left: auto;  
-                    font-size: 18px;
+                    font-size: 20px;
                     width: 80%;
                 }
                 .icons{
                     img{
                         height:  25px;
-                        margin: 2%;
+                        margin: 10%;
                         margin-right: 0;  
                         margin-top: 5%;                  
                     }
