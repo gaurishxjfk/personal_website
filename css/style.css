@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .main {
@@ -507,7 +508,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 650px;
+  height: 550px;
 }
 
 .about-me .abtme {
@@ -568,7 +569,7 @@
     width: 40%;
   }
   .about-me .abtme-info {
-    margin-top: -27%;
+    margin-top: -35%;
     margin-right: 2%;
   }
   .about-me .abtme-info__heading {
@@ -624,7 +625,7 @@
 
 @media only screen and (max-width: 700px) {
   .about-me {
-    height: 700px;
+    height: 680px;
   }
   .about-me .abtme-img img {
     width: 46%;
@@ -650,10 +651,11 @@
 
 @media only screen and (max-width: 600px) {
   .about-me {
-    height: 650px;
+    height: 630px;
   }
   .about-me .abtme-img img {
-    width: 49%;
+    height: 270px;
+    width: auto;
   }
   .about-me .abtme-info {
     margin-top: -5%;
@@ -683,7 +685,8 @@
             flex-direction: column;
   }
   .about-me .abtme-img img {
-    width: 60%;
+    height: 265px;
+    width: auto;
   }
   .about-me .abtme-info {
     margin-top: 8%;
@@ -724,7 +727,7 @@
     width: auto;
   }
   .about-me .abtme-info {
-    margin-top: 20%;
+    margin-top: 15%;
     margin-right: 5%;
   }
   .about-me .abtme-info__heading {
@@ -773,12 +776,112 @@
     margin-left: auto;
     font-size: 20px;
     width: 80%;
+    padding-bottom: 10%;
   }
   .about-me .abtme-info .icons img {
-    height: 25px;
-    margin: 10%;
-    margin-right: 0;
-    margin-top: 5%;
+    height: 20px;
+    margin: 3%;
+    margin-right: auto;
+  }
+}
+
+.skills {
+  background: url("../img/skillsbg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.skills .skill-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.skills .skill-type {
+  width: 75%;
+}
+
+.skills .skill-type_name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.skills .webdev {
+  text-align: right;
+}
+
+.skills .webdev-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.skills .webdev .skill-type {
+  width: 75%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: auto;
+}
+
+.skills .webdev .skill-type_name {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.skills .design {
+  text-align: left;
+}
+
+@media only screen and (max-width: 510px) {
+  .skills {
+    background: url("../img/skillsbg-sm.svg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+  }
+  .skills .skill-title {
+    font-size: 24px;
+    padding: 5px !important;
+  }
+  .skills .skill-type {
+    margin: auto;
+    padding-top: 2px !important;
+  }
+  .skills .skill-type_name {
+    font-size: 18px;
+  }
+  .skills .webdev {
+    text-align: center;
+  }
+  .skills .webdev-title {
+    font-size: 24px;
+  }
+  .skills .webdev .skill-type {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-right: auto;
+  }
+  .skills .webdev .skill-type_name {
+    text-align: left;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    font-size: 18px;
+  }
+  .skills .design .skill-title {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

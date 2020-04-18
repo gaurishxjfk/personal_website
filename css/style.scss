@@ -3,7 +3,7 @@ $yellow : #FFD600;
 *{
     margin: 0;
     padding: 0;
- 
+    overflow-x: hidden;
 }
 .main{
     height: 100%;
@@ -524,7 +524,7 @@ $yellow : #FFD600;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 550px;
     .abtme{
         display: flex;
         
@@ -564,6 +564,7 @@ $yellow : #FFD600;
             }
         }
     }
+
     
 }
 @media only screen and (max-width: 1110px){
@@ -582,7 +583,7 @@ $yellow : #FFD600;
                 }
             }
             &-info{
-                margin-top: -27%;
+                margin-top: -35%;
                 margin-right: 2%;
                 &__heading{
                       font-size: 38px;
@@ -645,7 +646,7 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 700px){
     .about-me{
-        height: 700px;
+        height: 680px;
        .abtme{            
             &-img{
                 img{
@@ -676,11 +677,12 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 600px){
     .about-me{
-        height: 650px;
+        height: 630px;
         .abtme{            
             &-img{
                 img{
-                    width: 49%;
+                    height: 270px;
+                    width: auto;
                 }
             }
             &-info{
@@ -704,13 +706,14 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        
+       
         .abtme{
 
             flex-direction: column;
             &-img{
                 img{
-                    width: 60%;
+                    height: 265px;
+                    width: auto;
                 }
             }
             &-info{
@@ -753,7 +756,7 @@ $yellow : #FFD600;
                 }
             }
             &-info{
-                margin-top: 20%;
+                margin-top: 15%;
                 margin-right: 5%;
                 &__heading{
                       font-size: 24px;
@@ -802,17 +805,127 @@ $yellow : #FFD600;
                     margin-left: auto;  
                     font-size: 20px;
                     width: 80%;
+                    padding-bottom: 10%;
                 }
                 .icons{
                     img{
-                        height:  25px;
-                        margin: 10%;
-                        margin-right: 0;  
-                        margin-top: 5%;                  
+                        height:  20px;
+                        margin: 3%;
+                        margin-right: auto;                                          
                     }
                 }
             }
         }
     }
 }
+//================================================================================================================================//
 
+
+.skills{
+    background: url("../img/skillsbg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height : 70vh;
+    .skill{
+        &-title{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+        }
+        &-type{
+            width : 75%;
+            &_name{
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;                
+                font-size: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .webdev{
+        text-align: right;
+        
+            &-title{
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                color: #FFFFFF;
+            }
+            .skill-type{
+                width : 75%;
+                transform: rotate(180deg);
+                margin-left: auto;
+                &_name{
+                    transform: rotate(180deg);
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;                
+                    font-size: 22px;
+                    color: #FFFFFF;
+                }
+            }
+        
+    }
+    .design{
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 510px){
+    .skills{
+        background: url("../img/skillsbg-sm.svg");
+        //background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height : 80vh;
+        padding: 25px;
+        .skill{
+            &-title{
+
+                font-size: 24px;
+                padding: 5px !important;
+
+            }
+            &-type{
+
+                margin: auto;
+                padding-top: 2px !important;
+                &_name{
+              
+                    font-size: 18px;
+
+                }
+            }
+        }
+        .webdev{
+            text-align: center;
+            
+                &-title{
+
+                    font-size: 24px;
+
+                }
+                .skill-type{
+ 
+                    transform: rotate(00deg);
+                    margin-right: auto;
+                    &_name{
+                        text-align: left;
+                        transform: rotate(0deg);
+            
+                        font-size: 18px;
+
+                    }
+                }
+            
+        }
+        .design{
+            .skill-title{
+                text-align: center;
+            }
+
+        }
+    }
+}
