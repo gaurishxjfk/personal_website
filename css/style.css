@@ -602,7 +602,7 @@
             flex-direction: column;
   }
   .about-me .abtme-img img {
-    width: 41%;
+    width: 250px;
   }
   .about-me .abtme-info {
     margin-top: -10%;
@@ -826,30 +826,31 @@
 
 .skills .webdev .skill-type {
   width: 75%;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
   margin-left: auto;
 }
 
 .skills .webdev .skill-type_name {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 22px;
   color: #FFFFFF;
 }
 
+.skills .webdev .skill-type .progress {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .skills .design {
   text-align: left;
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 768px) {
   .skills {
     background: url("../img/skillsbg-sm.svg");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     padding: 25px;
   }
   .skills .skill-title {
@@ -857,7 +858,6 @@
     padding: 5px !important;
   }
   .skills .skill-type {
-    margin: auto;
     padding-top: 2px !important;
   }
   .skills .skill-type_name {
@@ -870,18 +870,35 @@
     font-size: 24px;
   }
   .skills .webdev .skill-type {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
     margin-right: auto;
+    width: 100%;
   }
   .skills .webdev .skill-type_name {
     text-align: left;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
     font-size: 18px;
   }
-  .skills .design .skill-title {
+  .skills .webdev .skill-type .progress {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .skills .design {
     text-align: center;
+  }
+  .skills .design-title {
+    font-size: 24px;
+  }
+  .skills .design .skill-type {
+    width: 100%;
+  }
+  .skills .design .skill-type_name {
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .skills {
+    height: 95vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

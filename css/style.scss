@@ -525,6 +525,7 @@ $yellow : #FFD600;
     background-position: center;
     background-size: cover;
     height: 550px;
+    
     .abtme{
         display: flex;
         
@@ -618,7 +619,7 @@ $yellow : #FFD600;
             flex-direction: column;
             &-img{
                 img{
-                    width: 41%;
+                    width: 250px;
                 }
             }
             &-info{
@@ -857,14 +858,17 @@ $yellow : #FFD600;
             }
             .skill-type{
                 width : 75%;
-                transform: rotate(180deg);
+                
                 margin-left: auto;
                 &_name{
-                    transform: rotate(180deg);
+                  
                     font-family: 'Roboto', sans-serif;
                     font-style: normal;                
                     font-size: 22px;
                     color: #FFFFFF;
+                }
+                .progress{
+                    transform: rotate(180deg);
                 }
             }
         
@@ -873,14 +877,15 @@ $yellow : #FFD600;
         text-align: left;
     }
 }
-@media only screen and (max-width: 510px){
+@media only screen and (max-width: 768px){
     .skills{
         background: url("../img/skillsbg-sm.svg");
         //background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height : 80vh;
+        height : 90vh;
         padding: 25px;
+       // scroll-behavior: none;
         .skill{
             &-title{
 
@@ -889,8 +894,8 @@ $yellow : #FFD600;
 
             }
             &-type{
-
-                margin: auto;
+                
+                
                 padding-top: 2px !important;
                 &_name{
               
@@ -907,25 +912,42 @@ $yellow : #FFD600;
                     font-size: 24px;
 
                 }
-                .skill-type{
- 
-                    transform: rotate(00deg);
+                .skill-type{                    
                     margin-right: auto;
+                    width: 100%;
+                    
                     &_name{
-                        text-align: left;
-                        transform: rotate(0deg);
-            
-                        font-size: 18px;
-
+                        text-align: left;                   
+                         font-size: 18px;
                     }
-                }
-            
+                    .progress{
+                        transform: rotate(0deg);
+                    } 
+                } 
+          
         }
         .design{
-            .skill-title{
-                text-align: center;
+            text-align: center;            
+            &-title{
+                font-size: 24px;
             }
-
+            .skill-type{
+                width: 100%;
+                //margin-right: auto;
+                &_name{
+                    text-align: left;
+                        
+                    font-size: 18px;
+                }
+            }        
         }
     }
+}
+@media only screen and (max-width: 420px){
+    .skills{
+
+        height : 95vh;
+        
+       
+}
 }
