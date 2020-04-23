@@ -501,6 +501,10 @@
   }
 }
 
+.hid {
+  display: none;
+}
+
 .about-me {
   width: 100%;
   height: 80vh;
@@ -509,12 +513,14 @@
   background-position: center;
   background-size: cover;
   height: 550px;
+  overflow-y: hidden;
 }
 
 .about-me .abtme {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow-y: hidden;
 }
 
 .about-me .abtme-img {
@@ -791,6 +797,7 @@
   background-position: center;
   background-size: cover;
   height: 70vh;
+  overflow-y: hidden;
 }
 
 .skills .skill-title {
