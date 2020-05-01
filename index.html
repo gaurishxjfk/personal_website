@@ -13,6 +13,8 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="stylesheet" href="css/filter.css">
+
 </head>
 <body>
 <div class="main" >
@@ -185,10 +187,107 @@
         </div>
       </div>
     </div>
-  </div> 
-  <!-- <div class="hid my-work" id="myDIVwork">
+  </div>  
+   <div class="hid my-work" id="myDIVwork">
+    <div class="banner text-center">
+      <p>My Work</p>
+    </div>
+<div id="myBtnContainer" >
+   <button class="btn active mx-2 text-center" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn mx-2 text-center" onclick="filterSelection('design')"> Design</button>
+  <button class="btn mx-2 text-center" onclick="filterSelection('webdev')"> Webdev</button>
+</div>
 
-  </div> -->
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column webdev">
+    <div class="content">
+      <img src="/img/work/work1.png" alt="Sks Electrical website" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work13.jpeg" alt="Technotronics poster" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work14.jpeg" alt="Koi Menu" style="width:100%">
+
+    </div>
+  </div>
+
+  <div class="column ">
+    <div class="content">
+      <img src="/img/work/work4.jpeg" alt="earth manipulation" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column webdev">
+    <div class="content">
+      <img src="/img/work/work2.jpeg" alt="HR consultancy website" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work6.jpeg" alt="Event Flyer" style="width:100%">
+
+    </div>
+  </div>
+
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work7.jpeg" alt="Social Media Creative" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work8.jpeg" alt="Social Media Creative" style="width:100%">
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work9.jpeg" alt="Banner" style="width:100%">
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work10.jpeg" alt="Certificate design" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work11.jpeg" alt="Music Cover art" style="width:100%">
+    </div>
+  </div>
+  <div class="column webdev">
+    <div class="content">
+      <img src="/img/work/work15.png" alt="Event Website" style="width:100%">
+    </div>
+  </div>
+  <div class="column design">
+    <div class="content">
+      <img src="/img/work/work12.jpeg" alt="Flyer" style="width:100%">
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+      <img src="/img/work/work5.jpeg" alt="Illustration" style="width:100%">
+    </div>
+  </div>
+  <div class="column ">
+    <div class="content">
+      <img src="/img/work/work3.jpeg" alt="Illustration" style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+  </div> 
   <!-- <div class="hid hire-me" id="myDIVhire">
     <h1 class="">hirjghgme</h1>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nisi, sunt excepturi perspiciatis voluptate minima unde voluptates aliquid qui alias magni sint minus quia tenetur vero cum inventore cupiditate veniam! </p>
@@ -209,6 +308,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/filter.js"></script>
 
 </body>
 </html>
